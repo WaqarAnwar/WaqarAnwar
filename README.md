@@ -80,6 +80,6 @@ Merged contributions to Microsoft's toolkit for red-teaming generative AI system
 
 
 
-[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=WaqarAnwar&custom_title=My%20GitHub%20Stats&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&theme=light_github)](https://github-stats-extended.vercel.app/api?username=anuraghazra&custom_title=My%20GitHub%20Stats&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&theme=light_github)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=WaqarAnwar&custom_title=My%20GitHub%20Stats&show_icons=true&include_all_commits=true&theme=transparent)](https://github-stats-extended.vercel.app/api?username=anuraghazra&custom_title=My%20GitHub%20Stats&show_icons=true&include_all_commits=true&theme=transparent)
 
 ![](https://komarev.com/ghpvc/?username=WaqarAnwar)
