@@ -29,6 +29,7 @@ Merged contributions to Microsoft's toolkit for red-teaming generative AI system
 | [#3702](https://github.com/microsoft/PyRIT/pull/3702) | Rewrote `ShellCommandOutputScorer`'s destructive-shell regex to run in linear time using atomic groups | Fixed a ReDoS that blocked the event loop: **29 s → 0.4 ms** |
 | [#3697](https://github.com/microsoft/PyRIT/pull/3697) | Applied Git's racy-timestamp rule to the scorer metrics cache | Ended stale GUI metrics and a flaky test |
 | [#3770](https://github.com/microsoft/PyRIT/pull/3770) | Added `assert_type` regression checks for `Registry.get_registry_singleton` | Locks in correct `Self` return typing |
+| [#3830](https://github.com/microsoft/PyRIT/pull/3830) | Made the `MetricsType` dispatch in `from_csv` exhaustive, using `match` plus `assert_never`. | An unhandled new `MetricsType` now fails type checking instead of silently becoming an objective entry. |
 
 ---
 
