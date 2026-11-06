@@ -46,7 +46,7 @@ Merged contributions to Microsoft's toolkit for red-teaming generative AI system
 **[Resume Flow V2](https://github.com/WaqarAnwar/Resume_Flow_V2)** — Two-stage AI CV ranker
 > Semantic filtering with sentence-transformers plus LLM fit scoring, streamed live over SSE. Ranks **~3,000 CVs in under 6 minutes**.
 
-**Infant Cry Detection** — Real-time audio classifier
+**[Infant Cry Detection (FYP 2021)](https://github.com/WaqarAnwar/Infant-Crying-Detection-AI)** — Real-time audio classifier
 > Trained on 3,370 labeled samples; best model reached **85% real-time accuracy** on live 5-second clips.
 
 ---
