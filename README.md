@@ -32,6 +32,7 @@ Merged contributions to Microsoft's toolkit for red-teaming generative AI system
 | 4. | [#3830](https://github.com/microsoft/PyRIT/pull/3830) | Made the `MetricsType` dispatch in `from_csv` exhaustive, using `match` plus `assert_never`. | An unhandled new `MetricsType` now fails type checking instead of silently becoming an objective entry. |
 | 5. | [#3959](https://github.com/microsoft/PyRIT/pull/3959) | Swapped `asyncio.gather` for `asyncio.TaskGroup` in the Anthropic evals file fetches | One failed fetch now cancels the rest and surfaces the original error |
 | 6. | [#3983](https://github.com/microsoft/PyRIT/pull/3983) | Made runtime shutdown, live apply, evals fetches and scenario error reporting handle every failure in an exception group | Shutdown still cleans up on mixed cancel/error groups, and every failure in a group is now reported |
+| 7. | [#4038](https://github.com/microsoft/PyRIT/pull/4038) | Made the scenario queue handoff start a queued run when a retry finds the run already saved as IN_PROGRESS with the start time the scheduler gave it. It now compares start times as datetimes, and cancelling a queued run also cancels an IN_PROGRESS row |	Queued scenario runs no longer get stuck IN_PROGRESS with nothing running them after a failed handoff, and cancelling one in that window now works (closes #4036) |
 
 ---
 
